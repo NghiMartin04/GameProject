@@ -1,0 +1,49 @@
+header {
+    height: 100px;
+    background-color: #00cec3;
+    color: white;
+    font-size: 40px;
+    line-height: 90px;
+    vertical-align: middle;
+}
+
+main {
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 310px;
+    background-color: #dfd000;
+}
+
+footer {
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 60px;
+    background-color: #00c72b;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        text-align: left;
+    }
+    main {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+    main {
+        width: 90%;
+        margin: auto;
+    }
+    footer {
+        font-size: 12px;
+    }
+}
